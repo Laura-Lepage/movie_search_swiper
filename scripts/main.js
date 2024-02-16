@@ -66,6 +66,8 @@ input.addEventListener("keyup", function(event){
 })
 
 buttonNext.addEventListener('click', function(){
+  imageZone.innerHTML = ``
+  getMovies(input.value, 2)
   
 })
 
